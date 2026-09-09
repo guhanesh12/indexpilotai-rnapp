@@ -1,0 +1,89 @@
+{
+  "expo": {
+    "name": "IndexPilotAI",
+    "slug": "indexpilot-ai",
+    "version": "5.1.2",
+    "orientation": "portrait",
+    "platforms": ["ios", "android", "web"],
+    "icon": "./assets/logo/icon.png",
+    "scheme": ["indexpilotai", "indexpilot"],
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/logo/splashscreen_logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#020010"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.indexpilotai.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Capture documents for support tickets",
+        "NSPhotoLibraryUsageDescription": "Attach images to support tickets",
+        "NSFaceIDUsageDescription": "Use Face ID or Touch ID to unlock IndexPilot AI"
+      },
+      "googleServicesFile": "./GoogleService-Info.plist"
+    },
+    "android": {
+      "package": "com.indexpilotai.app",
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo/icon_320.png",
+        "backgroundColor": "#000000"
+      },
+      "edgeToEdgeEnabled": false,
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE",
+        "VIBRATE",
+        "RECEIVE_BOOT_COMPLETED",
+        "POST_NOTIFICATIONS",
+        "USE_BIOMETRIC"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      "expo-local-authentication",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/logo/splashscreen_logo.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#020010",
+          "duration": 3000,
+          "showLoadingIndicator": true
+        }
+      ],
+      "expo-secure-store",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/logo/icon.png",
+          "color": "#7C5CFF",
+          "defaultChannel": "default"
+        }
+      ],
+      [
+        "@react-native-firebase/app",
+        {
+          "googleServicesFile": "./google-services.json"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "notification": {
+      "icon": "./assets/logo/icon.png",
+      "color": "#7C5CFF",
+      "androidMode": "default",
+      "androidCollapsedTitle": "IndexPilot AI"
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "32c16331-f9be-4f6e-b70e-67d5cfa97428"
+      }
+    }
+  }
+}

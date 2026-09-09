@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "f7dd3d43-98e1-41fb-beb1-dbaf8ea0a596"
+      }
+    },
+    "android": {
+      "package": "com.indexpilotai.app"
+    }
+  }
+}

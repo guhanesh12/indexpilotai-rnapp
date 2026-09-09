@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "167770668435",
+    "project_id": "indexpilotai-e1106",
+    "storage_bucket": "indexpilotai-e1106.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:167770668435:android:bb7f841eb4d4c6f0bbbc66",
+        "android_client_info": {
+          "package_name": "com.indexpilotai.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9lcXKBdz5E1vu53mUhzSst-l5lvL2lgk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1",
+  "gcm_sender_id": "167770668435"
+}

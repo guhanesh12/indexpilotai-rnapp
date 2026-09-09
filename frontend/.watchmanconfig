@@ -1,0 +1,17 @@
+{
+  "ignore_derivatives": [
+    "node_modules",
+    "ios/Pods",
+    "ios/Pods 2",
+    "android/app/build",
+    "android/app/.cxx",
+    "android/app/build/outputs",
+    "dist",
+    "dist/_expo 2",
+    "dist/assets 2",
+    "ios/build",
+    "android 2",
+    ".expo",
+    ".git"
+  ]
+}
